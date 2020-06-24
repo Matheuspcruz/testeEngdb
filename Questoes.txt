@@ -1,0 +1,11 @@
+Cite 2 pontos positivos do padrão REST
+R:Maior velocidade no desempenho e também é criado para ser mais simples de se usar fazendo com que seja fácil de se aprender e implementar.
+
+
+Cite 2 pontos positivos do padrão SOAP
+R:Trabalha com a maioria dos protocolos de transportes como por exemplo: HTTP, TCP, JMS e SMTP e maior segurança tendo o WSDL que define o serviço e iforma como ele deve ser acessado e as operações ou métodos disponiveis.
+
+Qual é a diferença na prática entre os métodos http GET e POST? Consegue dar um exemplo?
+R:A diferença é que o método GET envia os parâmetros da requsição direto na URL sendo possivel vê-los até mesmo no historico do navegador diferente do método POST que envia dados ou os parâmetros no corpo da requisição, os deixando um pouco mais seguros.
+
+Sabendo os métodos básicos GET, POST, PUT e DELETE. Quando devo usar cada um deles?R:Os métodos GET/POST são mais utilizados na programação web, O método GET é usado com frequencia para fazer uma pesquisa de alguma coisa que o cliente passou como parâmetro. O método POST é muito utilizado para adicionar algo no servidor ou formulários de acesso aos sistemas, ja que seus dados quando passados pela requisição não podem ser vistos via URL. Os métodos PUT/DELETE são mais utilizados em WebServices. O método PUT é utilizado quando devemos atualizar todos os dados de um recurso ja existentes em algum service pelos dados passados pela requisição. E o método DELETE é utilizado quando devemos deleter algum recurso.
